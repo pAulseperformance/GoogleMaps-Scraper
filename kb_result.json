@@ -1,0 +1,133 @@
+[
+    {
+        "entities": [
+            {
+                "name": "Pine Script Strategy",
+                "description": "A platform offering education and tools for traders to build custom strategies using Pine Script."
+            },
+            {
+                "name": "Courses",
+                "description": "Educational offerings that teach traders how to use Pine Script and develop trading strategies."
+            },
+            {
+                "name": "Pine Script Pro Traders Hub",
+                "description": "A community and resource hub for traders to enhance their skills in Pine Script."
+            },
+            {
+                "name": "Trader Profile",
+                "description": "A feature that helps traders assess their trading psychology and risk tolerance."
+            },
+            {
+                "name": "Trader Psychology Profile Assessment Quiz",
+                "description": "A quiz designed to help traders understand their psychological profile."
+            },
+            {
+                "name": "Trader Risk Tolerance Assessment Quiz",
+                "description": "A quiz that assesses a trader's risk tolerance."
+            },
+            {
+                "name": "Blog",
+                "description": "A section providing articles and insights related to trading and Pine Script."
+            },
+            {
+                "name": "Support",
+                "description": "Customer support services for users of the Pine Script Strategy platform."
+            },
+            {
+                "name": "Reviews",
+                "description": "Testimonials and success stories from students who have taken the courses."
+            },
+            {
+                "name": "Strategy Optimizer",
+                "description": "A tool that helps traders optimize their trading strategies."
+            },
+            {
+                "name": "Essential Coder",
+                "description": "A course tier that provides access to essential coding resources and community support."
+            },
+            {
+                "name": "Pro Trader",
+                "description": "A course tier that includes advanced resources, live Q&A sessions, and market analysis."
+            },
+            {
+                "name": "Master Developer",
+                "description": "The highest course tier offering extensive resources, private coaching, and VIP support."
+            }
+        ],
+        "relationships": [
+            {
+                "entity1": {
+                    "name": "Pine Script Strategy",
+                    "description": "A platform offering education and tools for traders to build custom strategies using Pine Script."
+                },
+                "entity2": {
+                    "name": "Courses",
+                    "description": "Educational offerings that teach traders how to use Pine Script and develop trading strategies."
+                },
+                "description": "Pine Script Strategy offers various courses to educate traders.",
+                "relation_type": "offers"
+            },
+            {
+                "entity1": {
+                    "name": "Pine Script Strategy",
+                    "description": "A platform offering education and tools for traders to build custom strategies using Pine Script."
+                },
+                "entity2": {
+                    "name": "Pine Script Pro Traders Hub",
+                    "description": "A community and resource hub for traders to enhance their skills in Pine Script."
+                },
+                "description": "Pine Script Strategy includes a Pro Traders Hub for community support.",
+                "relation_type": "includes"
+            },
+            {
+                "entity1": {
+                    "name": "Trader Profile",
+                    "description": "A feature that helps traders assess their trading psychology and risk tolerance."
+                },
+                "entity2": {
+                    "name": "Trader Psychology Profile Assessment Quiz",
+                    "description": "A quiz designed to help traders understand their psychological profile."
+                },
+                "description": "The Trader Profile feature includes a psychology assessment quiz.",
+                "relation_type": "includes"
+            },
+            {
+                "entity1": {
+                    "name": "Trader Profile",
+                    "description": "A feature that helps traders assess their trading psychology and risk tolerance."
+                },
+                "entity2": {
+                    "name": "Trader Risk Tolerance Assessment Quiz",
+                    "description": "A quiz that assesses a trader's risk tolerance."
+                },
+                "description": "The Trader Profile feature includes a risk tolerance assessment quiz.",
+                "relation_type": "includes"
+            },
+            {
+                "entity1": {
+                    "name": "Courses",
+                    "description": "Educational offerings that teach traders how to use Pine Script and develop trading strategies."
+                },
+                "entity2": {
+                    "name": "Pro Trader",
+                    "description": "A course tier that includes advanced resources, live Q&A sessions, and market analysis."
+                },
+                "description": "Courses include a Pro Trader tier for advanced learning.",
+                "relation_type": "includes"
+            },
+            {
+                "entity1": {
+                    "name": "Pro Trader",
+                    "description": "A course tier that includes advanced resources, live Q&A sessions, and market analysis."
+                },
+                "entity2": {
+                    "name": "Master Developer",
+                    "description": "The highest course tier offering extensive resources, private coaching, and VIP support."
+                },
+                "description": "The Pro Trader tier is a prerequisite for the Master Developer tier.",
+                "relation_type": "prerequisite"
+            }
+        ],
+        "error": false
+    }
+]
